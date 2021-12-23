@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+main {
+    display: flex;
+    width: 100vw;
+    height: 78vh;
+}
+header {
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav {
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+}
+.main-nav {
+    padding-left: 2rem;
+}
+.main-nav:hover {
+    text-decoration: underline;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 72vh;
+    justify-content: center;
+    padding-bottom: 15rem;
+}    
+.logo {
+    position: absolute;
+}
+.input {
+    border: black 0.05rem solid;
+    border-radius: 2rem;
+    width: 30vw;
+    height: 4vh;
+    position: relative;
+    margin-top: 27rem;
+    padding: 0 4rem;
+}
+.bot-bus {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.box {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+button{
+    padding: 1rem;
+    opacity: 0.8;
+    border: none;
+    border-radius: 0.3rem;
+}
+footer {
+    height: 12vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    
+}
+.f-pais {
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.6rem;
+    align-items: flex-end;
+    padding-left: 2rem;
+    border-bottom: solid gray 0.2rem;
+    padding-bottom: 0.5rem;
+}
+.f {
+    width: 100vw;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    height: auto;
+}
+.d li{
+    padding-left: 2rem;
+}
+#space {
+    padding-right: 3rem;
+}
